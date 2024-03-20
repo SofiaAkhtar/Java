@@ -57,11 +57,10 @@ class MoviePlayer implements MediaPlayer {
 
 public class MediaMain {
     public static void main(String[] args) {
-        // Creating instances of MusicPlayer and MoviePlayer
+
         MusicPlayer musicPlayer = new MusicPlayer("song.mp3");
         MoviePlayer moviePlayer = new MoviePlayer("movie.mp4");
 
-        // Using the MediaPlayer interface methods
         musicPlayer.play();
         musicPlayer.pause();
         musicPlayer.stop();

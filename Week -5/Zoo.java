@@ -1,3 +1,6 @@
+//Create a base class Animal with methods eat() and sleep().
+// Implement subclasses like Lion, Elephant, and Monkey
+
 class Animal {
     public void eat() {
         System.out.println("Animal is eating");

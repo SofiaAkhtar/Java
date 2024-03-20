@@ -1,5 +1,5 @@
 //Design a game with a base class GameCharacter and subclasses for different character types. 
-//Use polymorphism to handle interactions between characters
+//,Use polymorphism to handle interactions between characters
 
 class GameCharacter {
     private String name;
